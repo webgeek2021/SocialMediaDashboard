@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+  <link rel="stylesheet" type="text/css" href="./Sass/style.css" />
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+
+<body>
+
+  <header class="section__top">
+    <div>
+      <h3 class="cap">Social Media Dashboard</h3>
+      <p class="cap">Total follower 23,004</p>
+    </div>
+    <div class="toggle-div" id="toggle-div">
+      <span class="theme-mode">Dark Mode</span>
+    <div class="toggle-btn-div">
+      <button class="btn toggle-inactive" id="toggle-btn"></button>
+    </div>
+  </div>
+  </header>
+  <main>
+    <section class="section__bottom">
+      <section class="card-section">
+      <section class="upper-cards">
+
+        <div class="card" data-card="facebook">
+          <div class="username" data-icon="facebook"> @nathanf</div>
+          <h3>1987</h3>
+          <span class="span-tag">Followers</span>
+          <span class="status-up status">12 Today</span>
+        </div>
+
+        <div class="card" data-card="twitter">
+          <span class="username" data-icon="twitter"> @nathanf</span>
+          <h3>1044</h3>
+          <span class="span-tag">Followers</span>
+          <span class="status-up status">99 Today</span>
+
+        </div>
+
+        <div class="card card-instagram" data-card="instagram">
+          <span class="username" data-icon="instagram">@realnathanf</span>
+          <h3>11k</h3>
+          <span class="span-tag">Followers</span>
+          <span class="status-up status">1099 Today</span>
+        </div>
+
+        <div class="card" data-card="youtube">
+          <span class="username" data-icon="youtube">Nathan F.</span>
+          <h3>8239</h3>
+          <span class="span-tag">Subscribers</span>
+          <span class="status-down  status">144 Today</span>
+        </div>
+
+      </section>
+      <h3 class="cap header-two">Overview - Today</h3>
+      <section class="bottom-cards">
+
+        <div class="card-small">
+          <div class="card-small-title">
+            <h4>Page Views</h4>
+            <img src="./images/icon-facebook.svg" alt="facebook-icon" />
+          </div>
+          <div class="card-small-content">
+            <h3 class="card-data-fig">83</h3>
+            <span class="card-small-status-up">3%</span>
+          </div>
+        </div>
+
+        <div class="card-small">
+          <div class="card-small-title">
+            <h4>Likes</h4>
+            <img src="./images/icon-facebook.svg" alt="facebook-icon" />
+          </div>
+          <div class="card-small-content">
+            <h3 class="card-data-fig">52</h3>
+            <span class="card-small-status-down">2%</span>
+          </div>
+        </div>
+
+        <div class="card-small">
+          <div class="card-small-title">
+            <h4>Likes</h4>
+            <img src="./images/icon-instagram.svg" alt="instagram-icon" />
+          </div>
+          <div class="card-small-content">
+            <h3 class="card-data-fig">5462</h3>
+            <span class="card-small-status-up">2257%</span>
+          </div>
+        </div>
+
+        <div class="card-small">
+          <div class="card-small-title">
+            <h4>Profile Views</h4>
+            <img src="./images/icon-instagram.svg" alt="instagram-icon" />
+          </div>
+          <div class="card-small-content">
+            <h3 class="card-data-fig">52K</h3>
+            <span class="card-small-status-up">1375%</span>
+          </div>
+        </div>
+        
+        <div class="card-small">
+          <div class="card-small-title">
+            <h4>Retweets</h4>
+            <img src="./images/icon-twitter.svg" alt="twitter-icon" />
+          </div>
+          <div class="card-small-content">
+            <h3 class="card-data-fig">117</h3>
+            <span class="card-small-status-up">303%</span>
+          </div>
+        </div>
+        
+        <div class="card-small">
+          <div class="card-small-title">
+            <h4>Likes</h4>
+            <img src="./images/icon-twitter.svg" alt="twitter-icon" />
+          </div>
+          <div class="card-small-content">
+            <h3 class="card-data-fig">507</h3>
+            <span class="card-small-status-up">553%</span>
+          </div>
+        </div>
+        
+        <div class="card-small">
+          <div class="card-small-title">
+            <h4>Likes</h4>
+            <img src="./images/icon-youtube.svg" alt="youtube-icon" />
+          </div>
+          <div class="card-small-content">
+            <h3 class="card-data-fig">107</h3>
+            <span class="card-small-status-down">19%</span>
+          </div>
+        </div>
+        
+        <div class="card-small">
+          <div class="card-small-title">
+            <h4>Total Views</h4>
+            <img src="./images/icon-youtube.svg" alt="youtube-icon" />
+          </div>
+          <div class="card-small-content">
+            <h3 class="card-data-fig">1047</h3>
+            <span class="card-small-status-down">12%</span>
+          </div>
+        </div>
+
+      </section>
+    </section>
+  </section>
+  </main>
+
+  <script src="./index.js"></script>
+</body>
+
+</html>
