@@ -97,6 +97,7 @@ button {
 }
 .section__top .toggle-div {
   display: flex;
+  justify-content: space-between;
 }
 .section__top .toggle-div .theme-mode {
   color: var(--text-color-blue);
